@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="signup.css">
+
+    <title>Login</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-main">
+                <a href="index.html" class="pls"><p>Serene Sips</p></a>
+                <div class="open-nav-menu">
+                    <span></span>
+                </div>
+                <div class="menu-overlay">
+                </div>
+    
+    
+                <!-- navigation menu start -->
+                <nav class="nav-menu">
+                    <div class="close-nav-menu">
+                        <img src="..\Assets\icons8-close.svg" alt="close">
+                    </div>
+                    
+                    <ul class="menu">
+                        <li class="menu-item">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Menu</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="menu-item">
+                            <a href="#">Contact</a>
+                        </li>
+                        <li class="menu-item">
+                            <button><a href="signup.html">Sign Up</a></button>
+                        </li>
+                        <li class="menu-item">
+                            <button><a href="#">Log In</a></button>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- navigation menu end -->
+            </div>
+        </div>
+    </header>
+
+    <div id="login" class="page hidden">
+        <h2>Login</h2>
+
+        <div class="form-container">
+            <input type="email" id="login-email" placeholder="Enter your email" required>
+            <input type="password" id="login-password" placeholder="Enter your password" required>
+            <p id="login-error" style="color: red; display: none;">Invalid email or password.</p>
+        </div>
+        <button id="login-btn">Login</button>
+
+    </div>
+
+    <footer >
+
+        <div class="padding-block4">
+        <div class="container">
+            <p><a href="index.html" class="pls">SERENE SIPS</a></p>
+    
+            <div class="footernav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Visit us</a></li>
+                    <li><a href="signup.html">Sign Up</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+    
+            </div>
+    
+            <div class="footicons">
+                <img src="..\Assets\icons8-facebook-50.svg" alt="Facebook" >
+                <img src="..\Assets\icons8-linkedin.svg" alt="Linked">
+                <img src="..\Assets\icons8-instagram.svg" alt="Instagram" >
+                <img src="..\Assets\icons8-twitterx.svg" alt="Twitter/X">
+            </div>
+    
+    
+        
+        </div>
+        </div>
+    
+        <div class="footerbottom">
+            <p>Copyright © 2025 Serene Sips. All rights reserved.</p>
+        </div>
+    
+    
+    </footer>
+
+    <script src="navbar.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>
