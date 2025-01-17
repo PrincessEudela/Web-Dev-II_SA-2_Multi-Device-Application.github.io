@@ -417,7 +417,6 @@ button a {
 
 footer {
   background-color: #FAF0E2;
-  border: 2px solid red;
   text-align: center;
 }
 footer a {
@@ -497,11 +496,7 @@ footer a {
   .about > .content button a {
     font-size: 1.15rem;
   }
-  .coffees {
-    border: 2px solid red;
-  }
   .coffees .all-coffees {
-    border: 2px solid red;
     grid-template-columns: repeat(2, 1fr);
   }
   .coffees button {
